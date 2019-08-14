@@ -1,0 +1,5 @@
+//$commonColor:yellow;
+:root {
+    --color-primary: red;  //--width-primary  ：变量名，css3有规则
+}
+$commonColor: var(--color-primary); //用var来盛放变量名
